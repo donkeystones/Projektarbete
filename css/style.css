@@ -85,6 +85,10 @@ header h1{
     transition: color 0.3s ease;
   }
 
+  .prodBox{
+    margin-left: 50px !important;
+  }
+
   #menuToggle
   {
     display: block;
