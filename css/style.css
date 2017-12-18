@@ -33,6 +33,18 @@ body{
   box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
+.prodBoxBig{
+  text-align: center;
+  list-style: none;
+  display:inline-block;
+  width: 435px;
+  text-decoration: none;
+  margin: 50px 0px 0px 350px;
+  background-color: white;
+  overflow: hidden;
+}
+
+
 .productInfoBox{
   text-align: center;
   list-style: none;
