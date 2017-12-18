@@ -7,19 +7,30 @@ body{
   background-image: url("../background.jpg");
 }
 
-
+#google_translate_element{
+  position: absolute;
+}
 
 .colapse{
   display:none;
 }
 .prodBox{
+  text-decoration: none;
   list-style: none;
   display:inline-block;
   width: 200px;
-  height: 300px;
   margin: 50px 0px 0px 96px;
-  background-color: #FFFF00;
-  overflow: hidden;
+  text-align: center;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+
+}
+
+.prodBox:hover{
+  background-color: #DBDBDB;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 #menu{
@@ -54,11 +65,11 @@ header h1{
   text-align: center;
 }
 .container{
+  background-color:rgba(255, 255, 255, 0.99);
   position:relative;
   max-width: 1600px;
   margin: 0 auto;
   border: 1px solid black;
-  background-color:white;
 }
 /*For mobile*/
 @media screen and (max-width: 720px){
@@ -72,6 +83,10 @@ header h1{
     color: #232323 !important;
 
     transition: color 0.3s ease;
+  }
+
+  .prodBox{
+    margin-left: 50px !important;
   }
 
   #menuToggle
