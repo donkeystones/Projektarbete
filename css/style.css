@@ -15,7 +15,6 @@ body{
   display:none;
 }
 
-<<<<<<< HEAD
 /*footer*/
 .footer {
     height: 100px;
@@ -66,7 +65,7 @@ body{
     margin-top: -40%;
 }
 /*!footer*/
-=======
+
 .topnav {
   width: 100%;
   overflow: hidden;
@@ -649,7 +648,7 @@ ul{
     position: fixed;
     top: 10px;
     left: 15px;
-
+    background-color: #BBAC78;
     z-index: 1;
 
     -webkit-user-select: none;
