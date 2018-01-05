@@ -19,7 +19,7 @@ body{
 .footer {
     height: 100px;
     max-width: 1600x;
-    border: 1px solid purple;
+    border: 1px solid black;
     text-align: center;
     color:white;
     background-color: #000000;
@@ -58,6 +58,16 @@ body{
     text-decoration: none;
     text-align: center;
 
+}
+
+.main_logo img{
+    display: block;
+    margin: 0 auto;
+    background-color: #bbac78;
+}
+
+header{
+    background-color: #bbac78;
 }
 
 .eHandel {
