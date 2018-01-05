@@ -27,6 +27,11 @@ body{
     text-decoration: none;
 }
 
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .footer ul {
     padding:0;
 }
@@ -37,23 +42,13 @@ body{
     margin-right: 20px;
     display: inline;
     text-decoration: none;
-
-
 }
 
 .eHandel {
     float:right;
     width: 14%;
     margin:-44px 19px 0px 35px;
-<<<<<<< HEAD
 }
-=======
-
-
-}
-
-
->>>>>>> 3f0b14b20d97d0a6e71ee6b27c4a2ba55ca58bac
 
 .Postnord {
     float:left;
@@ -63,7 +58,6 @@ body{
 
 
 /*!footer*/
-
 .topnav {
   width: 100%;
   overflow: hidden;
