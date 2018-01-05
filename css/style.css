@@ -15,23 +15,19 @@ body{
   display:none;
 }
 
-<<<<<<< HEAD
 /*footer*/
-.footer {
+.footer a{
     height: 100px;
     max-width: 1600x;
-    border: 1px solid purple;
+    border: 1px solid black;
     text-align: center;
-    color:white;
+    color: white;
     background-color: #000000;
     clear: both;
-
-
+    text-decoration: none;
 }
 
-
 .footer ul {
-
     padding:0;
 }
 
@@ -48,30 +44,22 @@ body{
 .eHandel {
     float:right;
     width: 14%;
-
-
-}
-
-.eHandel img {
-    margin-top:-40%;
-
+    margin:-44px 19px 0px 35px;
 }
 
 .Postnord {
     float:left;
     width: 14%;
+    margin:-92px -25px 0px -35px;
 }
 
-.Postnord img {
-    margin-top: -40%;
-}
+
 /*!footer*/
-=======
+
 .topnav {
   width: 100%;
   overflow: hidden;
   background-color: #bbac78;
-
 }
 
 .topnav a {
@@ -428,6 +416,7 @@ header h1{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    padding-top: 10px;
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
@@ -442,6 +431,7 @@ header h1{
     text-decoration: none;
     list-style: none;
     text-align: center;
+    padding-bottom: 10px;
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
@@ -614,8 +604,41 @@ ul{
     border-bottom: 1px solid #bbac78;
 }
 
+/*For tablets*/
+@media screen and (max-width: 1295px){
+  .prodBoxBig{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .productInfoBox{
+    display: block;
+    margin: 0 auto!important;
+  }
+  .productInfoBox2{
+    display: block;
+    margin: 0 auto !important;
+  }
+
+}
+
 /*For mobile*/
 @media screen and (max-width: 720px){
+
+  .prodBoxBig{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .productInfoBox{
+    display: block;
+    margin: 0 auto !important;
+  }
+  .productInfoBox2{
+    display: block;
+    margin: 0 auto !important;
+  }
+
   body{
     margin: 0;
     padding: 0;
@@ -627,29 +650,15 @@ ul{
     transition: color 0.3s ease;
   }
 
-  .prodBox{
-    display: block;
-    margin-left: 175px !important;
-  }
+  
 
-  .prodBoxBig{
-    margin-left: 50px !important;
-  }
 
-  .productInfoBox{
-    margin-left: 50px !important;
-    }
-
-    .productInfoBo2{
-    margin-left: 50px !important;
-    }
 
   #menuToggle {
     display: block;
     position: fixed;
     top: 10px;
     left: 15px;
-
     z-index: 1;
 
     -webkit-user-select: none;
