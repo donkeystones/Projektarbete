@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulär</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Translate functions-->
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>I am a header!</h1>
+        <div id="google_translate_element"></div>
+      </header>
+      <div id="menuToggle">
+        <input class="colapse" type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Whiskeys</li></a>
+          <a href="#"><li>Vodka</li></a>
+          <a href="#"><li>Champange</li></a>
+          <a href="#"><li>Wines</li></a>
+        </ul>
+
+      </div>
+      <div class="form" >
+    <h1>Bli medlem!</h1>
+    
+    <form action="forms-labb.php" method="post">
+    <select name="payment">
+        <option >Kön!</option>    
+        <option >Man</option>
+        <option >Kvinna</option>
+        <option >Annat</option>
+       
+        
+    </select> 
+     <br>   
+    <br>  
+    <span style=font-style:oblique>* Obligatorisk uppgift</span>    
+    <br>  
+    <br>    
+    
+    <span>Förnamn: </span>
+    <br>    
+    <input type="text" name="fname"  size="20">  * 
+    <br>
+    <br>
+    <span>Efternamn: </span>    
+    <br>
+    <input type="text" name="ename" size="20"> * 
+    <br>
+    <br>
+    <span>Adress: </span>    
+    <br>
+    <input type="text" name="address" size="31"> * 
+    <br>
+    <br>
+    <span>Portnr, och Ort: </span>   
+    <br>
+    <input type="text" name="zip-code" size="7"> * 
+    <input type="text" name="city" size="18"> * 
+    <br>
+    <br>
+    <span>Mobil: </span>
+    <br>
+    <input type="text" name="cell" size="17"> 
+    <br>
+    <br>
+    <span>Epost: </span>    
+    <br>
+    <input type="text" name="mail" size="20"> * 
+    <br>
+    <br> 
+    <span>Användarnamn: </span> 
+    <br>
+    <input type="text" name="usernamn" size="17"> *
+    <br>
+    <br>    
+    <span>Lösenord: </span>    
+    <br>
+    <input type="password" name="password" size="17" > * 
+    <br>
+    
+    
+    
+    <br>
+    <span>Erbjudande via e-post</span>
+    <input type="checkbox" name="offers" value="JA" checked="checked"> 
+   
+     
+    <br>
+    <br>   
+    
+    <input type="reset" value="Rensa">
+    <input type="submit" value="skicka">  
+        
+        
+     
+    </form>
+        </div>
+          
+<br>
+        <div class="bildp">
+        <img src="bilder/FormularBild.png" width="700px" height="500px">
+        </div>
+
+
+
+          
+        <div class="footer">
+            <ul>
+                <li><a href="https://www.systembolaget.se/om-systembolaget/" class="OmOss">Om oss</a></li>
+                <li><a href="https://www.systembolaget.se/om-systembolaget/hallbarhet/" class="Sekretess">Policy</a></li>
+                <li><a href="https://vanligafragor.systembolaget.se/org/systembolaget/" class="Kundservice">Kundservice</a></li>
+                <li><a href="https://www.inet.se/info/10/betalsatt-och-fraktpriser" class="Retur">Retur</a></li>
+                <li><a href="https://www.webdesignerdepot.com/2013/03/20-excellent-contact-pages/" class="Kontakt">Kontakta oss</a></li>
+            </ul>
+            
+            <ul>
+                <li><img src="bilder/visa.png" alt="Visakort" width="45px" height="25px"></li>
+                <li><img src="bilder/mastercard.png" alt="Masterkort" width="50px" height="30px"></li>
+                <li><img src="bilder/Swedbank.png" alt="Swed" width="70px" height="30px"></li>
+                <li><img src="bilder/paypal.png" alt="Pay" width="60px" height="30px"></li>
+            </ul>
+            <div class="eHandel">
+            <img class="Trygge" src="bilder/tryggeHandel.png" alt="TryggeHandel" width="75px" height="75px">
+            </div>
+            <div class="Postnord">
+            <img class="Nordpost" src="bilder/Postnord.png" alt="Posten" width="75px" height="75px">
+            </div>
+        
+        </div>
+    </div>
+  </body>
+</html>
+
