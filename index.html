@@ -53,18 +53,6 @@
 
         </div>
 
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <img src="bildspel_bilder_test/1_chivas_regal_the_icon_1280x720.jpg" style="width: 100%" title="Chivas Regal The Icon">
-        <div class="text"></div>
-        </div>
-
-        <div class="mySlides fade">
-            <img src="/bildspel_bilder_test/2_ciroc-serve.jpg" style="width: 100%" title="Ciroc Vodka">
-        <div class="text"></div>
-        </div>
-
       <div class="slideshow-container">
 
         <div class="mySlides fade">
@@ -108,7 +96,10 @@ function showSlides() {
        slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
+    if (slideIndex > 4) {
+      slideIndex = 1;
+      console.log(i);
+    }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
