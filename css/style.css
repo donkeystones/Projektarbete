@@ -628,7 +628,8 @@ ul{
   }
 
   .prodBox{
-    margin-left: 50px !important;
+    display: block;
+    margin-left: 175px !important;
   }
 
   .prodBoxBig{
