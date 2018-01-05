@@ -76,6 +76,27 @@ body{
 
 
 /*!footer*/
+
+.form {
+    padding:40px;
+    float:left;
+}
+
+.bildp{
+    display: block;
+    
+    
+}
+
+.bildp img {
+    display: block;
+    margin-left:200px;
+    margin:0 auto;
+    margin-top: 120px;
+    
+
+}
+
 .topnav {
   width: 100%;
   overflow: hidden;
