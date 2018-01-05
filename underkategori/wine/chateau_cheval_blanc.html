@@ -1,16 +1,11 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Produktsida: Champagne</title>
+    <title>Belvedere vodka imported</title>
     <link rel="stylesheet" href="../../css/style.css">
-<<<<<<< HEAD
-    
-=======
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
->>>>>>> f0d98564cc1a171ec6ccacc7fde43ab4f276fe13
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Translate functions-->
     <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -20,39 +15,27 @@
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
-
   <body>
-
     <div class="container">
-
       <header>
          <div class="main_logo">
-            <a href="../index.html">
-            <h1>Logo!</h1></a>
+            <a href="../../index.html">
+            <h1>Deluxe</h1></a>
         </div>
 
         <div id="google_translate_element"></div>
       </header>
-
       <div id="menuToggle">
         <input class="colapse" type="checkbox" />
         <span></span>
         <span></span>
         <span></span>
 
-        <div class="topnav">
-            <div class="search-container">
-                <button type="submit" id="search_icon">
-                <input type="text" placeholder="Sök.." name="search" type="button">&#x1F50D;</button>
-                <button style="font-size:24px" id="shopping_cart"><i class="fa fa-shopping-cart"></i></button>
-            </div>
-        </div>
-
         <ul id="menu">
           <a href="../../index.html"><li>Hem</li></a>
           <a href="../kategori_whiskey.html"><li>Whisky</li></a>
-          <a href=""><li>Vodka</li></a>
-          <a href="#"><li>Champagne</li></a>
+          <a href="../kategori_vodka.html"><li>Vodka</li></a>
+          <a href="../kategori_champange.html"><li>Champagne</li></a>
           <a href="../underkategori_wine.html"><li>Vin</li></a>
         </ul>
 
@@ -61,72 +44,69 @@
         <div class="breadcrumb">
         <ul>
         <li>
-        <a id="breadcrumb__link" href="#" title="" itemprop="url">
+        <a id="breadcrumb__link" href="../../index.html" title="" itemprop="url">
         <meta itemprop="title" content="Hem">
         Hem</a></li>
         <li>
-        <a id="breadcrumb__link" href="../kategori_whiskey.html" title="Champa" itemprop="url">
-        Champagne</a></li>
-        <li>Moët & Chandon, Brut Imperial Nabuchodonozor</li>
+        <a id="breadcrumb__link" href="../kategori_vodka.html" title="Whisky" itemprop="url">
+        Vodka</a></li>
+        <li>Belvedere vodka imported</li>
         </ul>
       </div>
-
-         <a class="prodBoxBig">
-<<<<<<< HEAD
-             <img src="../../bilder/champange/MoetChandon.jpg" title="Moët & Chandon, Brut Imperial Nabuchodonozor" width="65%">
-=======
-             <img src="../../bilder/champange/champange1.jpg" title="Moët & Chandon, Brut Imperial Nabuchodonozor" width="100%">
->>>>>>> f0d98564cc1a171ec6ccacc7fde43ab4f276fe13
+        <a class="prodBoxBig">
+            <img src="../../bilder/wine/chateau_cheval_blanc.jpg" width="100%">
         </a>
      <div class="productInfoBox">
-        <h2 id="headingProduct">Moët & Chandon, Brut Imperial Nabuchodonozor</h2>
-            <p><b>1500cl / 12%</b>
-
+        <h2 class="headingProduct">Château Cheval Blanc</h2>
+            <p><b>0,75L / 14%</b>
+            <br>Vin</p>
          <div>
-            <p id="infoTextProduct">
-            Moet et Chandon Brut Imperial är en av världens mest kända champagner. Tillverkat av de tre druvsorter från Champagne, Pinot Noir, Pinot Meunier och Chardonnay, som blandas med den mjuka, välbalanserad stil som kännetecknar Moet et Chandon. Observera att denna flaska innehåller 15 liter.
+            <p class="infoTextProduct">
+              Med fantistisk smak är detta vin ett av dem bästa av Saint-Emilion. Med Aroma av röda frukter, läder och honung som sticker fram är detta ett världskänt vin.
             </p>
             <ul id="factsProduct">
-            <li><b>Lagring:</b> 2-8 år</li><br>
-            <li><b>Land:</b> Frankrike</li>
+              <li><b>Årtal</b> 1921</li>
+              <li><b>Land:</b> Frankrike</li>
             </ul>
         </div>
       </div>
+
       <div class="productInfoBox2">
           <div class="price-container">
-        <div class="price-contnt" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-            <span class="price"><b>22 460 kr</b></span>
-        </div>
-            </div>
+            <span class="price"><b>59.500 kr</b></span>
+          </div>
+
           <div class="addbasket">
-              <form action="/checkout/addtobasket">
-                  <input name="productAddToBasketProductID" value="7258" type="hidden">
-                  <input name="productAddToBasketRedirectUrl" value="%2fp%2f7258%2fchivas-regal-25-year-old" type="hidden">
 
                   <div class="quantity-container">
                       <input class="quantity" type="text" value="1" id="productQuantityText" onblur="validateNumber(this)" maxlength="3">
                   </div>
 
                   <div class="buybutton-container">
-                      <a href="#" class="buybutton-link"><input type="submit" id="productAddToBasketButton" class="buybutton twe-button-lg off-orange on-green" value="Lägg i varukorgen" title="Add to Basket"></a>
+                     <input type="submit" id="buybutton" value="Lägg i varukorgen" title="Add to Basket">
+
                   </div>
-              </form>
           </div>
 
           <div class="rating-overview">
-              Recensioner
-              <div class="rating-container" >
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      (16 Recensioner)
-              </div>
+              <span>Recensioner</span>
+                <div class="rating-container" >
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span>(21 Recensioner)</span>
+                </div>
           </div>
       </div>
 
-      <div class="footer">
+
+
+
+
+
+        <div class="footer">
             <ul>
                 <li><a href="https://www.systembolaget.se/om-systembolaget/" class="OmOss">Om oss</a></li>
                 <li><a href="https://www.systembolaget.se/om-systembolaget/hallbarhet/" class="Sekretess">Policy</a></li>
@@ -148,8 +128,10 @@
             <img class="Nordpost" src="../../bilder/Postnord.png" alt="Posten" width="75px" height="75px">
             </div>
           </div>
-      
+      </div>
 
-    </div>
+
+
+
   </body>
 </html>
