@@ -634,7 +634,7 @@ ul{
 /*For mobile*/
 @media screen and (max-width: 720px){
 
-  
+
 
   .prodBoxBig{
     display: block;
@@ -657,13 +657,8 @@ ul{
   a
   {
     text-decoration: none;
-    color: #232323 !important;
     transition: color 0.3s ease;
   }
-
-
-
-
 
   #menuToggle {
     display: block;
@@ -671,7 +666,6 @@ ul{
     top: 10px;
     left: 15px;
     z-index: 1;
-
     -webkit-user-select: none;
   }
 
