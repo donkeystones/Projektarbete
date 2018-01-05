@@ -16,6 +16,17 @@ body{
 }
 
 /*footer*/
+.footer {
+    height: 100px;
+    max-width: 1600x;
+    border: 1px solid purple;
+    text-align: center;
+    color:white;
+    background-color: #000000;
+    clear: both;
+    
+}
+
 .footer a{
     height: 100px;
     max-width: 1600x;
@@ -43,7 +54,7 @@ body{
     margin-right: 20px;
     display: inline;
     text-decoration: none;
-    text-align: center<
+    text-align: center;
     
 }
 
