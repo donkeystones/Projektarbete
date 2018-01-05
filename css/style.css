@@ -48,23 +48,20 @@ body{
 .eHandel {
     float:right;
     width: 14%;
+    margin:-44px 19px 0px 35px;
 
 
 }
 
-.eHandel img {
-    margin:-92px;
 
-}
 
 .Postnord {
     float:left;
     width: 14%;
+    margin:-90px -25px 0px -35px;
 }
 
-.Postnord img {
-    margin:-92px;
-}
+
 /*!footer*/
 =======
 .topnav {
