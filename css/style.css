@@ -62,7 +62,7 @@ body{
 
 .main_logo img{
     display: block;
-    margin: 0 auto;
+    margin:0 auto;
     background-color: #bbac78;
 }
 
@@ -70,12 +70,40 @@ header{
     background-color: #bbac78;
 }
 
+.search_bar input[type=text] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search_icon/search_icon_black.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search_bar input[type=text]:focus {
+    width: 100%;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search_bar input[type=text]:focus {
+    width: 30%;
+}
+
+.search_bar {
+    overflow: hidden;
+    padding: 10px;
+}
+
 .eHandel {
     float:right;
     width: 10%;
     margin:-92px -26px 0px 35px;
-
-
 }
 
 .Postnord {
@@ -141,10 +169,18 @@ header{
 }
 
 #shopping_cart{
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    padding: 8px;
     float: right;
     display: inline-block;
     background: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#shopping_cart :hover{
+    color: green;
 }
 
 .sb-nav-actions-container .sb-nav-action {
@@ -813,6 +849,37 @@ ul{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+    
+.search_bar input[type=text]:focus {
+    width: 50%;
+}    
+    
+.search_bar input[type=text] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search_icon/search_icon_black_mobile.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}   
+    
+#shopping_cart{
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    padding: 3px;
+    float: right;
+    display: inline-block;
+    background: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}    
 
 
 
