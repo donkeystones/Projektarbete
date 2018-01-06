@@ -15,8 +15,64 @@ body{
   display:none;
 }
 
+.main_logo img{
+    display: block;
+    margin:0 auto;
+    background-color: #bbac78;
+}
+
+header{
+    background-color: #bbac78;
+}
+
+.search_bar input[type=text] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search_icon/search_icon_black.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search_bar input[type=text]:focus {
+    width: 100%;
+}
+
+/* When the input field gets focus, change its width to 30% */
+.search_bar input[type=text]:focus {
+    width: 30%;
+}
+
+.search_bar {
+    overflow: hidden;
+    padding: 10px;
+}
+
+#shopping_cart{
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    padding: 8px;
+    float: right;
+    display: inline-block;
+    background: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#shopping_cart :hover{
+    color: green;
+}
+
 /*footer*/
 .footer {
+    margin-top: 20px;
     height: 100px;
     max-width: 1600x;
     border: 1px solid black;
@@ -60,46 +116,6 @@ body{
 
 }
 
-.main_logo img{
-    display: block;
-    margin:0 auto;
-    background-color: #bbac78;
-}
-
-header{
-    background-color: #bbac78;
-}
-
-.search_bar input[type=text] {
-    float: right;
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('../search_icon/search_icon_black.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 10px 10px 10px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-.search_bar input[type=text]:focus {
-    width: 100%;
-}
-
-/* When the input field gets focus, change its width to 100% */
-.search_bar input[type=text]:focus {
-    width: 30%;
-}
-
-.search_bar {
-    overflow: hidden;
-    padding: 10px;
-}
-
 .eHandel {
     float:right;
     width: 10%;
@@ -111,90 +127,7 @@ header{
     width: 10%;
     margin:-92px 0px 0px -27px;
 }
-
-
 /*!footer*/
-.topnav {
-  width: 100%;
-  overflow: hidden;
-  background-color: #bbac78;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #2196F3;
-  color: white;
-}
-
-.topnav .search-container {
-  float: right;
-}
-
-.topnav input[type=text] {
-  margin-top: 0px;
-  margin-bottom: 0x;
-  font-size: 17px;
-  border: none;
-  background: white;
-}
-
-.topnav .search-container button {
-  background: white;
-  float: right;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  font-size: 17px;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.topnav .search-container button:hover {
-  background: white;
-}
-
-#shopping_cart{
-    border: 2px solid #ccc;
-    margin-left: 5px;
-    padding: 8px;
-    float: right;
-    display: inline-block;
-    background: white;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-#shopping_cart :hover{
-    color: green;
-}
-
-.sb-nav-actions-container .sb-nav-action {
-    float: right;
-    margin-left: 10px;
-    padding: 0 5px;
-    border-radius: 2px;
-    text-align: center;
-}
-
-.main_logo a{
-    text-decoration: none;
-    color: black;
-}
 
 .prodBox{
   text-decoration: none;
@@ -225,7 +158,6 @@ header{
   overflow: hidden;
 }
 
-
 .productInfoBox{
   text-align: center;
   list-style: none;
@@ -233,11 +165,11 @@ header{
   height 100px;
   width: 450px;
   text-decoration: none;
-  margin: 50px 0px 208px 50px;
+  margin: 30px 0px 208px 50px;
   background-color: white;
   overflow: hidden;
   border: solid 2px #BBAC78;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 #headingProduct{
@@ -334,6 +266,7 @@ header{
      margin-right: 25px;
 }
 
+/* Orange Stars review */
 .checked {
     color: orange;
 }
@@ -392,20 +325,6 @@ header{
   padding: 14px 16px;
 }
 
-header{
-  margin: 0;
-  padding: 0;
-
-}
-
-header h1{
- background-color: #bbac78;
- margin: 0px;
- padding-top: 30px;
- padding-bottom: 15px;
- text-align: center;
-}
-
 .container{
   position:relative;
   max-width: 1600px;
@@ -446,10 +365,30 @@ header h1{
   border: 1px solid black;
 }
 
+/* Utvalda märken*/
 
+.homepage-title {
+  position: relative;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 
+.homepage-title .title {
+ position: relative;
+ overflow: hidden;
+ font-weight: 400;
+ font-size: 1.7em;
+ letter-spacing: 2px;
+ line-height: 1.5;
+ text-align: center;
+ text-transform: uppercase;
+ color: #bbac78;
+}
 
-
+.inner{
+    border-bottom: 1px solid #bbac78;
+}
 
 .our_highlights_container1{
     text-transform: uppercase;
@@ -480,6 +419,7 @@ header h1{
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
 }
+/* End Utvalda Märken */
 
 h4{
     color: #bbac78;
@@ -583,15 +523,6 @@ ul{
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
@@ -626,29 +557,6 @@ ul{
   to {opacity: 1}
 }
 
-.homepage-title {
-  position: relative;
-  max-width: 1000px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
-.homepage-title .title {
- position: relative;
- overflow: hidden;
- font-weight: 400;
- font-size: 1.7em;
- letter-spacing: 2px;
- line-height: 1.5;
- text-align: center;
- text-transform: uppercase;
- color: #bbac78;
-}
-
-.inner{
-    border-bottom: 1px solid #bbac78;
-}
-
 /*For tablets*/
 @media screen and (max-width: 1295px){
 
@@ -681,8 +589,6 @@ ul{
 /*For mobile*/
 @media screen and (max-width: 720px){
 
-
-
   .prodBoxBig{
     display: block;
     margin: 0 auto;
@@ -701,6 +607,7 @@ ul{
     margin: 0;
     padding: 0;
   }
+    
   a
   {
     text-decoration: none;
@@ -717,16 +624,14 @@ ul{
   }
 
   #menuToggle input
-  {
+  {  
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
 
@@ -743,14 +648,10 @@ ul{
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #cdcdcd;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
-
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
@@ -822,6 +723,7 @@ ul{
     padding: 10px 0;
     font-size: 22px;
     margin-bottom: 10px;
+    color: black;  
   }
 
   /*
@@ -830,23 +732,6 @@ ul{
   #menuToggle input:checked ~ ul
   {
     transform: none;
-  }
-
-  .topnav .search-container {
-  }
-
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    margin: 40px;
-    position: fixed;
-    background-color: white;
-    background: white;
-    float: right;
-    text-align: left;
-    width:80%;
-  }
-
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
   }
     
 .search_bar input[type=text]:focus {
@@ -879,8 +764,6 @@ ul{
     box-sizing: border-box;
     cursor: pointer;
 }    
-
-
 
 .slideshow-container {
     display: none;
