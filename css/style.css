@@ -15,16 +15,72 @@ body{
   display:none;
 }
 
+.main_logo img{
+    display: block;
+    margin:0 auto;
+    background-color: #bbac78;
+}
+
+header{
+    background-color: #bbac78;
+}
+
+.search_bar input[type=text] {
+    float: right;
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search_icon/search_icon_black.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search_bar input[type=text]:focus {
+    width: 100%;
+}
+
+/* When the input field gets focus, change its width to 30% */
+.search_bar input[type=text]:focus {
+    width: 30%;
+}
+
+.search_bar {
+    overflow: hidden;
+    padding: 10px;
+}
+
+#shopping_cart{
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    padding: 8px;
+    float: right;
+    display: inline-block;
+    background: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#shopping_cart :hover{
+    color: green;
+}
+
 /*footer*/
 .footer {
+    margin-top: 20px;
     height: 100px;
     max-width: 1600x;
-    border: 1px solid purple;
+    border: 1px solid black;
     text-align: center;
     color:white;
     background-color: #000000;
     clear: both;
-    
+
 }
 
 .footer a{
@@ -36,7 +92,7 @@ body{
     background-color: #000000;
     clear: both;
     text-decoration: none;
-    
+
 }
 
 .footer a:hover {
@@ -57,15 +113,13 @@ body{
     display: inline;
     text-decoration: none;
     text-align: center;
-    
+
 }
 
 .eHandel {
     float:right;
     width: 10%;
     margin:-92px -26px 0px 35px;
-
-    
 }
 
 .Postnord {
@@ -73,9 +127,8 @@ body{
     width: 10%;
     margin:-92px 0px 0px -27px;
 }
-
-
 /*!footer*/
+
 
 .form {
     padding:40px;
@@ -176,6 +229,7 @@ body{
     color: black;
 }
 
+
 .prodBox{
   text-decoration: none;
   list-style: none;
@@ -205,7 +259,6 @@ body{
   overflow: hidden;
 }
 
-
 .productInfoBox{
   text-align: center;
   list-style: none;
@@ -213,11 +266,11 @@ body{
   height 100px;
   width: 450px;
   text-decoration: none;
-  margin: 50px 0px 208px 50px;
+  margin: 30px 0px 208px 50px;
   background-color: white;
   overflow: hidden;
   border: solid 2px #BBAC78;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 #headingProduct{
@@ -314,6 +367,7 @@ body{
      margin-right: 25px;
 }
 
+/* Orange Stars review */
 .checked {
     color: orange;
 }
@@ -372,20 +426,6 @@ body{
   padding: 14px 16px;
 }
 
-header{
-  margin: 0;
-  padding: 0;
-
-}
-
-header h1{
- background-color: #bbac78;
- margin: 0px;
- padding-top: 30px;
- padding-bottom: 15px;
- text-align: center;
-}
-
 .container{
   position:relative;
   max-width: 1600px;
@@ -395,6 +435,7 @@ header h1{
 }
 
 #menu{
+    text-transform: uppercase;
     list-style:none;
     margin:0;
     padding:0;
@@ -425,10 +466,30 @@ header h1{
   border: 1px solid black;
 }
 
+/* Utvalda märken*/
 
+.homepage-title {
+  position: relative;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 
+.homepage-title .title {
+ position: relative;
+ overflow: hidden;
+ font-weight: 400;
+ font-size: 1.7em;
+ letter-spacing: 2px;
+ line-height: 1.5;
+ text-align: center;
+ text-transform: uppercase;
+ color: #bbac78;
+}
 
-
+.inner{
+    border-bottom: 1px solid #bbac78;
+}
 
 .our_highlights_container1{
     text-transform: uppercase;
@@ -459,6 +520,7 @@ header h1{
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
 }
+/* End Utvalda Märken */
 
 h4{
     color: #bbac78;
@@ -562,15 +624,6 @@ ul{
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor:pointer;
@@ -605,31 +658,14 @@ ul{
   to {opacity: 1}
 }
 
-.homepage-title {
-  position: relative;
-  max-width: 1000px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
-.homepage-title .title {
- position: relative;
- overflow: hidden;
- font-weight: 400;
- font-size: 1.7em;
- letter-spacing: 2px;
- line-height: 1.5;
- text-align: center;
- text-transform: uppercase;
- color: #bbac78;
-}
-
-.inner{
-    border-bottom: 1px solid #bbac78;
-}
-
 /*For tablets*/
 @media screen and (max-width: 1295px){
+
+  .prodBox{
+    display:block;
+    margin:0 auto !important;
+  }
+
   .prodBoxBig{
     display: block;
     margin: 0 auto;
@@ -643,7 +679,12 @@ ul{
     display: block;
     margin: 0 auto !important;
   }
-
+  .slideshow-container {
+      display: none;
+    }
+  .dot {
+    display: none;
+  }
 }
 
 /*For mobile*/
@@ -667,16 +708,12 @@ ul{
     margin: 0;
     padding: 0;
   }
+    
   a
   {
     text-decoration: none;
-    color: #232323 !important;
     transition: color 0.3s ease;
   }
-
-  
-
-
 
   #menuToggle {
     display: block;
@@ -684,21 +721,18 @@ ul{
     top: 10px;
     left: 15px;
     z-index: 1;
-
     -webkit-user-select: none;
   }
 
   #menuToggle input
-  {
+  {  
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
 
@@ -715,14 +749,10 @@ ul{
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #cdcdcd;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
-
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
@@ -775,9 +805,7 @@ ul{
     position: absolute;
     width:300px;
     margin: -100px 0 0 -50px;
-
     padding-top: 125px;
-
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -796,6 +824,7 @@ ul{
     padding: 10px 0;
     font-size: 22px;
     margin-bottom: 10px;
+    color: black;  
   }
 
   /*
@@ -805,27 +834,94 @@ ul{
   {
     transform: none;
   }
-
-  .topnav .search-container {
-  }
-
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    margin: 40px;
-    position: fixed;
-    background-color: white;
-    background: white;
+    
+.search_bar input[type=text]:focus {
+    width: 50%;
+}    
+    
+.search_bar input[type=text] {
     float: right;
-    text-align: left;
-    width:80%;
-  }
-
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
-
-  
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search_icon/search_icon_black_mobile.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}   
+    
+#shopping_cart{
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    padding: 3px;
+    float: right;
+    display: inline-block;
+    background: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}    
 
 .slideshow-container {
     display: none;
   }
+   
+.footer {
+    text-align: left;
+    height:200px;
+        
+}
+    
+    .footer ul {
+        text-align: left;
+    }
+    
+    .footer ul li {
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .Postnord {
+        display: block;
+        width: auto;
+        float:left;
+        margin:-11px -39px 18px 124px;
+
+    }
+    
+    .eHandel {
+        float:left;
+        width:auto;
+        display: block;
+        margin:-11px -39px 18px 28px;
+         }
+    
+    .Nordpost {
+        width:30px;
+        height: 30px;
+        
+    }
+    
+    .Trygge {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .Retur {
+        margin: 0px 0px 0px -38px;
+
+    }
+    
+    .Paypal {
+        margin: 0px 0px 0px -15px;
+    }
+    
+    .Master {
+        margin: 0px 0px 0px 10px;
+    }
+
 }
