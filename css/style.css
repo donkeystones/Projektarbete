@@ -415,6 +415,7 @@ header h1{
 }
 
 #menu{
+    text-transform: uppercase;
     list-style:none;
     margin:0;
     padding:0;
@@ -802,9 +803,7 @@ ul{
     position: absolute;
     width:300px;
     margin: -100px 0 0 -50px;
-
     padding-top: 125px;
-
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
