@@ -6,7 +6,7 @@
         <meta name="description" content="Deluxe viner och alkoholhaltiga drycker för exklusiva priser.">
         <meta name="keywords" content="Alkohol,Vin,Vodka,Whisky,Champagne">
         <title>Deluxe : Köp exklusiva spritdrycker och fina viner online</title>
-        <link rel="icon" href="../Projektarbete/Logo/champagne_browser_tab_logo.png">  
+        <link rel="icon" href="../Projektarbete/Logo/champagne_browser_tab_logo.png">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,12 +30,12 @@
                     <a href="Deluxe.html">
                         <img src="Logo/deluxe_logo.png" alt="Deluxe-Logo-sprit" style="width: 20%"></a>
 
-                    <div class="search_bar">  
+                    <div class="search_bar">
                         <form>
-                            <button id="shopping_cart"><i class="fa fa-shopping-cart" style="font-size:24px"></i></button> 
+                            <button id="shopping_cart"><i class="fa fa-shopping-cart" style="font-size:24px"></i></button>
                             <input type="text" name="search" placeholder="Sök..">
-                        </form> 
-                    </div> 
+                        </form>
+                    </div>
 
 
 
@@ -68,7 +68,7 @@
 
             <h1>Nyheter</h1>
 
-            <div class="slideshow-container">
+            <div id="slideCont" class="slideshow-container">
 
                 <div class="mySlides fade">
                     <img src="bildspel_bilder_test/1_chivas_regal_the_icon_1280x720.jpg" alt="RegalChivas" style="width: 100%" title="Chivas">
@@ -99,26 +99,38 @@
             </div>
 
             <script>
-                var slideIndex = 0;
-                showSlides();
-                function showSlides() {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > 4) {
-                        slideIndex = 1;
-                        console.log(i);
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex-1].style.display = "block";
-                    dots[slideIndex-1].className += " active";
-                    setTimeout(showSlides,4000);
+            document.getElementById("slideCont").onmouseout = function() {
+              console.log("Hello");
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
                 }
             </script>
             <br>
@@ -185,12 +197,12 @@
 
                     <div id="google_translate_element"></div>
                     <div id="google_translate_element"></div>
-                    <div id="google_translate_element"></div>                     
-                </div>    
+                    <div id="google_translate_element"></div>
+                </div>
 
             </div>
 
-        </div>  
+        </div>
 
     </body>
 
