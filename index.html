@@ -108,7 +108,7 @@
         hover = true;
         console.log(hover);
       }
-
+      var myTimeout;
       var slideIndex = 1;
       showSlides(slideIndex);
 
@@ -117,6 +117,8 @@
       // Thumbnail image controls
       function currentSlide(n) {
         showSlides(slideIndex = n);
+        hover = true;
+        clearTimeout(myTimeout);
       }
 
       function showSlides(n) {
@@ -148,7 +150,7 @@
         }
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 4000);
+        myTimeout = setTimeout(showSlides, 10000);
       }
     </script>
     <br>
