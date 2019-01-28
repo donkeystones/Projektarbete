@@ -99,21 +99,24 @@
             </div>
 
             <script>
+            var hover = false;
             document.getElementById("slideCont").onmouseout = function() {
-              console.log("Hello");
+              hover = false;
+              console.log(hover);
+            }
+            document.getElementById("slideCont").onmouseover = function() {
+              hover = true;
+              console.log(hover);
             }
 
             var slideIndex = 1;
             showSlides(slideIndex);
 
-            // Next/previous controls
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
+
 
             // Thumbnail image controls
             function currentSlide(n) {
-            showSlides(slideIndex = n);
+              showSlides(slideIndex = n);
             }
                 function showSlides(n) {
                   var i;
@@ -122,6 +125,15 @@
 
                   if (n > slides.length) {slideIndex = 1}
                   if (n < 1) {slideIndex = slides.length}
+                  if(!hover){
+                    slideIndex++;
+                  }
+                  if (slideIndex > 4) {
+                    for (i = 0; i < dots.length; i++) {
+                    slideIndex = 1;
+                    dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                  }
 
                   for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
@@ -131,6 +143,7 @@
                   }
                   slides[slideIndex-1].style.display = "block";
                   dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides,4000);
                 }
             </script>
             <br>
