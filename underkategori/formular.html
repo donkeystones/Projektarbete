@@ -1,25 +1,40 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Formulär</title>
+      <meta name="description" content="Bli medlem för att få nyheter om erbjudanden.">
+      <meta name="keywords" content="Bli medlem, regestrering, Sprit, exklusiv, Delux.">
+        <link rel="icon" href="../../Projektarbete/Logo/champagne_browser_tab_logo.png"> 
     <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--Translate functions-->
-    <script type="text/javascript">
+    <script>
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
     }
     </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <meta name="robots" content="noindex, nofollow">
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>I am a header!</h1>
-        <div id="google_translate_element"></div>
+        <div class="main_logo">
+            <a href="../Deluxe.html">
+            <img src="../Logo/deluxe_logo.png" alt="Deluxe-logo-sprit" style="width: 20%"></a>
+        </div>
+          
+             <div class="search_bar">  
+        <form>
+            <button id="shopping_cart"><i class="fa fa-shopping-cart" style="font-size:24px"></i></button> 
+            <input type="text" name="search" placeholder="Sök..">
+        </form> 
+        </div>
+        
       </header>
       <div id="menuToggle">
         <input class="colapse" type="checkbox" />
@@ -28,14 +43,27 @@
         <span></span>
 
         <ul id="menu">
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Whiskeys</li></a>
-          <a href="#"><li>Vodka</li></a>
-          <a href="#"><li>Champange</li></a>
-          <a href="#"><li>Wines</li></a>
+         <li><a href="../Deluxe.html">Hem</a></li>
+              <li><a href="kategori_champange.html">Champagne</a></li>
+               <li><a href="underkategori_wine.html">Vin</a></li>
+              <li><a href="kategori_vodka.html">Vodka</a></li>
+            <li><a href="kategori_whiskey.html">Whisky</a></li>
+            <li><a href="formular.html">Bli medlem</a></li>
         </ul>
 
       </div>
+        
+        <div class="breadcrumb">
+        <ul>
+          <li>
+            <a id="breadcrumb__link" href="../Deluxe.html" title="Hem">
+            <meta property="" content="Hem">Hem</a>
+          </li>
+          <li>Bli medlem</li>
+        </ul>
+      </div>
+        
+        
       <div class="form" >
     <h1>Bli medlem!</h1>
     
@@ -115,7 +143,7 @@
           
 <br>
         <div class="bildp">
-        <img src="../bilder/Coalition.png" width="700px" height="500px">
+        <img src="../bilder/Coalition.png" alt="Deluxe-Coalition-sprit" width="700" height="500">
         </div>
 
 
@@ -130,29 +158,26 @@
               </ul>
 
               <ul>
-                  <li><img src="../bilder/visa.png" alt="Visakort" width="45px" height="25px"></li>
-                  <li><img src="../bilder/mastercard.png" alt="Masterkort" width="50px" height="30px"></li>
-                  <li><img src="../bilder/Swedbank.png" alt="Swed" width="70px" height="30px"></li>
-                  <li><img src="../bilder/paypal.png" alt="Pay" width="60px" height="30px"></li>
+                  <li><img class="Visa" src="../bilder/visa.png" alt="Visakort" width="45" height="25"></li>
+                  <li><img class="Master" src="../bilder/mastercard.png" alt="Masterkort" width="50" height="30"></li>
+                  <li><img class="Swedbank" src="../bilder/Swedbank.png" alt="Swed" width="70" height="30"></li>
+                  <li><img class="Paypal" src="../bilder/paypal.png" alt="Pay" width="60" height="30"></li>
               </ul>
               <div class="eHandel">
-              <img class="Trygge" src="../bilder/tryggeHandel.png" alt="TryggeHandel" width="75px" height="75px">
+              <img class="Trygge" src="../bilder/tryggeHandel.png" alt="TryggeHandel" width="75" height="75">
               </div>
               <div class="Postnord">
-              <img class="Nordpost" src="../bilder/Postnord.png" alt="Posten" width="75px" height="75px">
+              <img class="Nordpost" src="../bilder/Postnord.png" alt="Posten" width="75" height="75">
+                  
+                  <div id="google_translate_element"></div>
+                  
               </div>
+          
+          
+          
     </div>
       </div>
-      <div>
-<p>
-<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_64.png" alt="Valid HTML5" height="50" width="50" style="border:0;"/></a>
-</p>
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!"/>
-</a>
-</p>
-</div>
+   
   </body>
 </html>
 
