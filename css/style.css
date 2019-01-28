@@ -87,6 +87,7 @@ header{
 
 #shopping_cart{
     border: 2px solid #ccc;
+    border-radius: 4px;
     margin-left: 5px;
     padding: 8px;
     float: right;
@@ -104,7 +105,6 @@ header{
 .footer {
     margin-top: 20px;
     height: 140px;
-    
     border: 1px solid black;
     text-align: center;
     color:white;
@@ -115,7 +115,6 @@ header{
 
 .footer a{
     height: 100px;
-    
     border: 1px solid black;
     text-align: center;
     color: white;
@@ -452,7 +451,7 @@ header{
 }
 
 #menu a:hover:not(.active){
-  background-color: #ddd;
+  background-color: #A9A9A9;
   padding: 14px 16px;
 }
 
@@ -484,7 +483,7 @@ header{
 }
 
 #menu a:hover:not(.active){
-  background-color: #ddd;
+  background-color: #A9A9A9;
   padding: 14px 16px;
 }
 
@@ -562,22 +561,7 @@ h1 {
     margin: 1.2em 0 0.5em;
     overflow: hidden;
     font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 2px;
-    line-height: 1.3;
-    text-align: center;
-    text-transform: uppercase;
-    border-bottom: solid #bbac78 1px;
-    padding-bottom: 10px;
-}
-
-h4{
-    color: #bbac78;
-    position: relative;
-    margin: 1.2em 0 0.5em;
-    overflow: hidden;
-    font-weight: 400;
-    font-size: 1em;
+    font-size: 1.7em;
     letter-spacing: 2px;
     line-height: 1.3;
     text-align: center;
@@ -597,6 +581,21 @@ h2{
     line-height: 1.3;
     text-align: center;
     text-transform: uppercase;
+}
+
+h4{
+    color: #bbac78;
+    position: relative;
+    margin: 1.2em 0 0.5em;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid #bbac78 1px;
+    padding-bottom: 10px;
 }
 
 p{
@@ -806,12 +805,11 @@ ul{
   #menuToggle span
   {
     display: block;
-    
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: #0a0a0a;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
@@ -897,6 +895,13 @@ ul{
     transform: none;
   }
     
+#menu a{
+    padding: 14px 16px;
+    display:inline-block;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+    
 .search_bar input[type=text]:focus {
     width: 50%;
 }    
@@ -919,6 +924,7 @@ ul{
     
 #shopping_cart{
     border: 2px solid #ccc;
+    border-radius: 4px;
     margin-left: 5px;
     padding: 3px;
     float: right;
