@@ -68,7 +68,7 @@
 
     <h1>Nyheter</h1>
 
-    <div class="slideshow-container">
+    <div id="slideCont" class="slideshow-container">
 
       <div class="mySlides fade">
         <img src="bildspel_bilder_test/1_chivas_regal_the_icon_1280x720.jpg" alt="RegalChivas" style="width: 100%" title="Chivas">
@@ -99,21 +99,49 @@
     </div>
 
     <script>
-      var slideIndex = 0;
-      showSlides();
+      var hover = false;
+      document.getElementById("slideCont").onmouseout = function() {
+        hover = false;
+        console.log(hover);
+      }
+      document.getElementById("slideCont").onmouseover = function() {
+        hover = true;
+        console.log(hover);
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
 
-      function showSlides() {
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
         var dots = document.getElementsByClassName("dot");
+
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        if (!hover) {
+          slideIndex++;
+        }
+        if (slideIndex > 4) {
+          for (i = 0; i < dots.length; i++) {
+            slideIndex = 1;
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+        }
+
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > 4) {
-          slideIndex = 1;
-          console.log(i);
         }
         for (i = 0; i < dots.length; i++) {
           dots[i].className = dots[i].className.replace(" active", "");
