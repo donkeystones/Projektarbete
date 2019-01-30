@@ -1,10 +1,10 @@
 
 body{
-  margin: 0;
-  
-  font-family: "Avenir Next", "Avenir", sans-serif;
+    margin: 0;
 
-  background-image: url("../background.jpg");
+    font-family: "Avenir Next", "Avenir", sans-serif;
+
+    background-image: url("../background.jpg");
 }
 
 
@@ -28,7 +28,7 @@ body{
     border: 1px solid #bbac78;
     max-width: 350px;
     border-top: none;
-    
+
 }
 
 #Slideshow {
@@ -38,11 +38,11 @@ body{
 
 
 #google_translate_element{
-  
+
 }
 
 .colapse{
-  display:none;
+    display:none;
 }
 
 .main_logo img{
@@ -102,14 +102,14 @@ header{
 
 /*footer*/
 .footer {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 140px;
-    
+
     border: 1px solid black;
     text-align: center;
     color:white;
     background-color: #000000;
-    clear: both;
+    
 
 }
 
@@ -157,6 +157,12 @@ header{
     width: 10%;
     margin:-92px 0px 0px -27px;
 }
+
+.Uppdatera {
+    margin: -10px 200px -60px 0px;
+}
+
+
 /*!footer*/
 
 
@@ -167,8 +173,8 @@ header{
 
 .bildp{
     display: block;
-    
-    
+
+
 }
 
 .bildp img {
@@ -176,67 +182,67 @@ header{
     margin-left:200px;
     margin:0 auto;
     margin-top: 120px;
-    
+
 
 }
 
 .searchbutton {
     margin-bottom: 10px;
-    
+
 }
 
 .topnav {
-  width: 100%;
-  overflow: hidden;
-  background-color: #bbac78;
+    width: 100%;
+    overflow: hidden;
+    background-color: #bbac78;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 .topnav a.active {
-  background-color: #2196F3;
-  color: white;
+    background-color: #2196F3;
+    color: white;
 }
 
 .topnav .search-container {
-  float: right;
+    float: right;
 }
 
 .topnav input[type=text] {
-  margin-top: 0px;
-  
-  font-size: 17px;
-  border: none;
-  background: white;
+    margin-top: 0px;
+
+    font-size: 17px;
+    border: none;
+    background: white;
 }
 
 .topnav .search-container button {
-  background: white;
-  float: right;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  font-size: 17px;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .topnav .search-container button:hover {
-  background: white;
+    background: white;
 }
 
 #shopping_cart{
@@ -261,70 +267,70 @@ header{
 
 
 .prodBox{
-  text-decoration: none;
-  list-style: none;
-  display:inline-block;
-  width: 200px;
-  margin: 50px 0px 0px 96px;
-  text-align: center;
-   -webkit-transition: 0.3s ease-out;
-  -moz-transition: 0.3s ease-out;
-  -o-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+    text-decoration: none;
+    list-style: none;
+    display:inline-block;
+    width: 200px;
+    margin: 50px 0px 0px 96px;
+    text-align: center;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .prodBox:hover{
-  background-color: #DBDBDB;
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background-color: #DBDBDB;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .prodBoxBig{
-  text-align: center;
-  list-style: none;
-  display:inline-block;
-  width: 435px;
-  text-decoration: none;
-  margin: 50px 0px 0px 350px;
-  background-color: white;
-  overflow: hidden;
+    text-align: center;
+    list-style: none;
+    display:inline-block;
+    width: 435px;
+    text-decoration: none;
+    margin: 50px 0px 0px 350px;
+    background-color: white;
+    overflow: hidden;
 }
 
 .productInfoBox{
-  text-align: center;
-  list-style: none;
-  display:inline-block;
-  
-  width: 450px;
-  text-decoration: none;
-  margin: 30px 0px 208px 50px;
-  background-color: white;
-  overflow: hidden;
-  border: solid 2px #BBAC78;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    text-align: center;
+    list-style: none;
+    display:inline-block;
+
+    width: 450px;
+    text-decoration: none;
+    margin: 30px 0px 208px 50px;
+    background-color: white;
+    overflow: hidden;
+    border: solid 2px #BBAC78;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 #headingProduct{
-  border-bottom:  solid #bbac78 1px; padding-bottom: 15px;
-  padding-top: 15px;
-  padding-left: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
+    border-bottom:  solid #bbac78 1px; padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
 
 }
 
 .productInfoBox2{
-  clear: both;
-  text-align: center;
-  list-style: none;
-  display:inline-block;
-  height: 200px;
-  width: 450px;
-  text-decoration: none;
-  margin: 5px 0px 0px -458px;
-  background-color: white;
-  overflow: hidden;
-  border: solid 2px #BBAC78;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+    clear: both;
+    text-align: center;
+    list-style: none;
+    display:inline-block;
+    height: 200px;
+    width: 450px;
+    text-decoration: none;
+    margin: 5px 0px 0px -458px;
+    background-color: white;
+    overflow: hidden;
+    border: solid 2px #BBAC78;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 #infoTextProduct{
@@ -391,10 +397,10 @@ header{
 }
 
 .rating-overview{
-     border-top: solid #BBAC78 1px;
-     padding-top: 15px;
-     margin-left: 25px;
-     margin-right: 25px;
+    border-top: solid #BBAC78 1px;
+    padding-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /* Orange Stars review */
@@ -452,16 +458,16 @@ header{
 }
 
 #menu a:hover:not(.active){
-  background-color: #ddd;
-  padding: 14px 16px;
+    background-color: #ddd;
+    padding: 14px 16px;
 }
 
 .container{
-  position:relative;
-  max-width: 1600px;
-  margin: 0 auto;
-  border: 1px solid black;
-  background-color:white;
+    position:relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color:white;
 }
 
 #menu{
@@ -484,37 +490,37 @@ header{
 }
 
 #menu a:hover:not(.active){
-  background-color: #ddd;
-  padding: 14px 16px;
+    background-color: #ddd;
+    padding: 14px 16px;
 }
 
 .container{
-  background-color:rgba(255, 255, 255, 0.99);
-  position:relative;
-  max-width: 1600px;
-  margin: 0 auto;
-  border: 1px solid black;
+    background-color:rgba(255, 255, 255, 0.99);
+    position:relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 /* Utvalda märken*/
 
 .homepage-title {
-  position: relative;
-  max-width: 1000px;
-  padding: 0 10px;
-  margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
 
 .homepage-title .title {
- position: relative;
- overflow: hidden;
- font-weight: 400;
- font-size: 1.7em;
- letter-spacing: 2px;
- line-height: 1.5;
- text-align: center;
- text-transform: uppercase;
- color: #bbac78;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    color: #bbac78;
 }
 
 .inner{
@@ -556,7 +562,7 @@ header{
 /* End Utvalda Märken */
 
 h1 {
-    
+
     color: #bbac78;
     position: relative;
     margin: 1.2em 0 0.5em;
@@ -584,6 +590,26 @@ h4{
     text-transform: uppercase;
     border-bottom: solid #bbac78 1px;
     padding-bottom: 10px;
+}
+
+h3{
+     color: #bbac78;
+    position: relative;
+    margin: 1.2em 0 0.5em;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid #bbac78 1px;
+    padding-bottom: 10px;
+}
+
+h5{
+    color: #FFFFFF;
+    font-size: 0.7em;
 }
 
 h2{
@@ -626,15 +652,15 @@ ul{
 
 
 #google_translate_element {
-        margin: 0px 0px 0px 25px;
-    }
+    margin: 0px 0px 0px 25px;
+}
 
 
 .slideshow-container {
-  padding-top: 25px;
-  margin: auto;
-  max-width: 1000px;
-  position: relative;
+    padding-top: 25px;
+    margin: auto;
+    max-width: 1000px;
+    position: relative;
 }
 
 /* Hide the images by default */
@@ -644,309 +670,309 @@ ul{
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
 
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 /*For tablets*/
 @media screen and (max-width: 1295px){
 
-  .prodBox{
-    display:block;
-    margin:0 auto !important;
-  }
-
-  .prodBoxBig{
-    display: block;
-    margin: 0 auto;
-  }
-
-  .productInfoBox{
-    display: block;
-    margin: 0 auto!important;
-  }
-  .productInfoBox2{
-    display: block;
-    margin: 0 auto !important;
-  }
-  .slideshow-container {
-      display: none;
+    .prodBox{
+        display:block;
+        margin:0 auto !important;
     }
-  .dot {
-    display: none;
-  }
+
+    .prodBoxBig{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .productInfoBox{
+        display: block;
+        margin: 0 auto!important;
+    }
+    .productInfoBox2{
+        display: block;
+        margin: 0 auto !important;
+    }
+    .slideshow-container {
+        display: none;
+    }
+    .dot {
+        display: none;
+    }
 }
 
 /*For mobile*/
 @media screen and (max-width: 720px){
 
-  .prodBoxBig{
-    display: block;
-    margin: 0 auto;
-  }
+    .prodBoxBig{
+        display: block;
+        margin: 0 auto;
+    }
 
-  .productInfoBox{
-    display: block;
-    margin: 0 auto !important;
-  }
-  .productInfoBox2{
-    display: block;
-    margin: 0 auto !important;
-  }
+    .productInfoBox{
+        display: block;
+        margin: 0 auto !important;
+    }
+    .productInfoBox2{
+        display: block;
+        margin: 0 auto !important;
+    }
 
-  body{
-    margin: 0;
-    padding: 0;
-  }
-    
-  a
-  {
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+    body{
+        margin: 0;
+        padding: 0;
+    }
 
-  #menuToggle {
-    display: block;
-    position: fixed;
-    top: 10px;
-    left: 15px;
-    z-index: 1;
-      -webkit-user-select: none;
-    
-  }
+    a
+    {
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
 
-  #menuToggle input
-  {  
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    cursor: pointer;
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-      
-      -webkit-touch-callout: none;
+    #menuToggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 15px;
+        z-index: 1;
+        -webkit-user-select: none;
 
-    
-  }
+    }
 
-  /*
-   * Just a quick hamburger
-   */
-  #menuToggle span
-  {
-    display: block;
-    
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #cdcdcd;
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-  }
+    #menuToggle input
+    {  
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0; /* hide this */
+        z-index: 2; /* and place it over the hamburger */
 
-  #menuToggle span:first-child
-  {
-    transform-origin: 0% 0%;
-  }
+        -webkit-touch-callout: none;
 
-  #menuToggle span:nth-last-child(2)
-  {
-    transform-origin: 0% 100%;
-  }
 
-  /*
-   * Transform all the slices of hamburger
-   * into a crossmark.
-   */
-  #menuToggle input:checked ~ span
-  {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-  }
+    }
 
-  /*
-   * But let's hide the middle one.
-   */
-  #menuToggle input:checked ~ span:nth-last-child(3)
-  {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
+    /*
+    * Just a quick hamburger
+    */
+    #menuToggle span
+    {
+        display: block;
 
-  /*
-   * Ohyeah and the last one should go the other direction
-   */
-  #menuToggle input:checked ~ span:nth-last-child(2)
-  {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            opacity 0.55s ease;
+    }
 
-  /*
-   * Make this absolute positioned
-   * at the top left of the screen
-   */
-  #menu
-  {
-    position: absolute;
-    width:300px;
-    margin: -100px 0 0 -50px;
-    padding-top: 125px;
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
+    #menuToggle span:first-child
+    {
+        transform-origin: 0% 0%;
+    }
 
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+    #menuToggle span:nth-last-child(2)
+    {
+        transform-origin: 0% 100%;
+    }
 
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
+    /*
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
+    #menuToggle input:checked ~ span
+    {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
 
-  #menu li
-  {
-    display: block;
-    width: 250px;
-    padding: 10px 0;
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #000000;  
-  }
+    /*
+    * But let's hide the middle one.
+    */
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
 
-  /*
-   * And let's slide it in from the left
-   */
-  #menuToggle input:checked ~ ul
-  {
-    transform: none;
-  }
-    
-.search_bar input[type=text]:focus {
-    width: 50%;
-}    
-    
-.search_bar input[type=text] {
-    float: right;
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('../search_icon/search_icon_black_mobile.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 5px 5px 5px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}   
-    
-#shopping_cart{
-    border: 2px solid #ccc;
-    margin-left: 5px;
-    padding: 3px;
-    float: right;
-    display: inline-block;
-    background: white;
-    box-sizing: border-box;
-    cursor: pointer;
-}    
+    /*
+    * Ohyeah and the last one should go the other direction
+    */
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
 
-.slideshow-container {
-    display: none;
-  }
-   
-.footer {
-    text-align: left;
-    height:280px;
-        
-}
-    
+    /*
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
+    #menu
+    {
+        position: absolute;
+        width:300px;
+        margin: -100px 0 0 -50px;
+        padding-top: 125px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #menu li
+    {
+        display: block;
+        width: 250px;
+        padding: 10px 0;
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #000000;  
+    }
+
+    /*
+    * And let's slide it in from the left
+    */
+    #menuToggle input:checked ~ ul
+    {
+        transform: none;
+    }
+
+    .search_bar input[type=text]:focus {
+        width: 50%;
+    }    
+
+    .search_bar input[type=text] {
+        float: right;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../search_icon/search_icon_black_mobile.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 5px 5px 5px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }   
+
+    #shopping_cart{
+        border: 2px solid #ccc;
+        margin-left: 5px;
+        padding: 3px;
+        float: right;
+        display: inline-block;
+        background: white;
+        box-sizing: border-box;
+        cursor: pointer;
+    }    
+
+    .slideshow-container {
+        display: none;
+    }
+
+    .footer {
+        text-align: left;
+        height:280px;
+
+    }
+
     .footer ul {
         text-align: left;
     }
-    
+
     .footer ul li {
         text-align: left;
         padding: 10px;
     }
-    
+
     .Postnord {
         display: block;
         width: auto;
@@ -954,55 +980,55 @@ ul{
         margin:-11px -39px 18px 130px;
 
     }
-    
+
     .eHandel {
         float:left;
         width:auto;
         display: block;
         margin:-11px -39px 18px 28px;
-         }
-    
+    }
+
     .Nordpost {
         width:30px;
         height: 30px;
-        
+
     }
-    
+
     .Trygge {
         width: 30px;
         height: 30px;
     }
-    
+
     .Retur {
         margin: 0px 0px 0px -38px;
 
     }
-    
-    
+
+
     .Kontakt {
         margin: 0px 0px 0px -30px;
     }
-    
+
     .Paypal {
         margin: 5px 0px 20px 230px;
     }
-    
+
     .Master {
         margin: 0px 0px 0px 10px;
     }
-    
+
     .bildp  {
         display: none;
     }
-    
+
     .bildp img {
         display: none;
     }
-    
-   
 
-    
-    
-    
-    
+
+
+
+
+
+
 }
