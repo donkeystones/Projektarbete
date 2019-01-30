@@ -87,6 +87,7 @@ header{
 
 #shopping_cart{
     border: 2px solid #ccc;
+    border-radius: 4px;
     margin-left: 5px;
     padding: 8px;
     float: right;
@@ -458,7 +459,7 @@ header{
 }
 
 #menu a:hover:not(.active){
-    background-color: #ddd;
+    background-color: #A9A9A9;
     padding: 14px 16px;
 }
 
@@ -490,7 +491,7 @@ header{
 }
 
 #menu a:hover:not(.active){
-    background-color: #ddd;
+    background-color: #A9A;
     padding: 14px 16px;
 }
 
